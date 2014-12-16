@@ -1,0 +1,14 @@
+1. The manual way of viewing the differences was cumbersome and error-prone. Hence didn't like it very much. An visually appealing tool would do the needful.
+
+2. The history plays a game changer as it can enable the user to review/revert back to any previous version of the file at ease.
+
+3. Manual clutters avoids a lot of clutter that the automatic commit creates and also that the performance of the tools would slow down due to auto-commit.
+
+4. Saving multiple files all at once shall allow tracking the repositories at ease. I believe Git has a better way of tracking based on the file types whereas other file history providers doesn't know them properly.
+
+5. To view the history of the files: git log
+To view the difference between various commits: git diff commit1 commit2
+
+6. The version control enables one to identify the bugs at ease by versioning them and allowing the user to reivew the changes across commits.
+
+7. I would like to use git for my own projects as a version control repository so that I can open it up for other developers to contribute. I can be in a safe position even when I open for developers because of Git.
