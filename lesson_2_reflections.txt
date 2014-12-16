@@ -1,3 +1,9 @@
 1. How is the staging area different from the working directory and what value do you think it offers?
 working directory and staging area are meant for different purposes in git. Working directory can contain many files that may or maynot have been tracked. 
 Staging area contains files that are only added by the git add command and will be empty once commit is made.
+
+2. How can you use the staging area to make sure you have one commit per logical change?
+Directly there are no options to seperate logical changes. Hence the solution to that is called branching.
+
+3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Branches will help in grouping the logical changes into sub-repositories and would enable the user to switch the branches and hence multi-task. A branch can be created for all experimental changes which need not be commited to the repository.
