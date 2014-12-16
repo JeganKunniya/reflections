@@ -10,3 +10,6 @@ Branches will help in grouping the logical changes into sub-repositories and wou
 
 4. How do the diagrams help you visualize the branch structure?
 The diagrams provide a sense of commits that are reachable and not-reachable. Hence it is very easy to identify which of the commits has not made it to the master branch and go on from there.
+
+5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Merging two brnaches will result in a branch that contains the changes from both the branches and the development can then continue from that branch if that is a master. merges allows integration of changes and hence it needs to be represented to show the logical parents of that particular merge commit.
