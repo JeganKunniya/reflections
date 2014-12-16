@@ -13,3 +13,6 @@ The diagrams provide a sense of commits that are reachable and not-reachable. He
 
 5. What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 Merging two brnaches will result in a branch that contains the changes from both the branches and the development can then continue from that branch if that is a master. merges allows integration of changes and hence it needs to be represented to show the logical parents of that particular merge commit.
+
+6. What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Auto-merges are useful when there are no conflicting changes whereas manual merges are useful for conflicting changes. Hence the conflicting changes has to be merged carefully and commited.
