@@ -1,0 +1,3 @@
+1. How is the staging area different from the working directory and what value do you think it offers?
+working directory and staging area are meant for different purposes in git. Working directory can contain many files that may or maynot have been tracked. 
+Staging area contains files that are only added by the git add command and will be empty once commit is made.
