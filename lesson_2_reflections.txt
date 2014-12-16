@@ -7,3 +7,6 @@ Directly there are no options to seperate logical changes. Hence the solution to
 
 3. What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches will help in grouping the logical changes into sub-repositories and would enable the user to switch the branches and hence multi-task. A branch can be created for all experimental changes which need not be commited to the repository.
+
+4. How do the diagrams help you visualize the branch structure?
+The diagrams provide a sense of commits that are reachable and not-reachable. Hence it is very easy to identify which of the commits has not made it to the master branch and go on from there.
