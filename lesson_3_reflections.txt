@@ -5,3 +5,6 @@ Manually pulling changes gives more control to pull only the branches in need th
 fork - happens within a github repository. equivalent to cloning within github repo.
 clones - happens on a local repo or between a local and github repo
 branches - easy way to create an experimental task or label. Happens both from & to github. The push and pull happens through branches often.
+
+3. What is the benefit of having a copy of the last known state of the remote stored locally?
+The sheer benefit is the mangagement of local versions of the repository such that only the final changes once tested for completeness can be pushed to the remote. All the local stuffs can happen offline except the push to the server.
