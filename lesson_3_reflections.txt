@@ -8,3 +8,6 @@ branches - easy way to create an experimental task or label. Happens both from &
 
 3. What is the benefit of having a copy of the last known state of the remote stored locally?
 The sheer benefit is the mangagement of local versions of the repository such that only the final changes once tested for completeness can be pushed to the remote. All the local stuffs can happen offline except the push to the server.
+
+4. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Without a tool like Git and Github it would be hard to collaborate. Even if collaboration is carried out by some means, it is difficult to share the changes expect the sanctity of the changes to be maintained across collaborators.
