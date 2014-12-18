@@ -11,3 +11,6 @@ The sheer benefit is the mangagement of local versions of the repository such th
 
 4. How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Without a tool like Git and Github it would be hard to collaborate. Even if collaboration is carried out by some means, it is difficult to share the changes expect the sanctity of the changes to be maintained across collaborators.
+
+5. When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+I would consider for a new branch to make changes when it has to be reviewed by other collaborators before making it in the master copy. 
